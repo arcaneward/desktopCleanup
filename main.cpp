@@ -62,7 +62,7 @@ void cleanupFiles(const std::string& desktopPath) {
 
 int main(int argc, const char * argv[]) {
   // Predefined desktop path (replace with your own system's path)
-  std::string desktopPath = "/Users/lindseythornton/Desktop"; // Replace with your own username
+  std::string desktopPath = "/Users/username/Desktop"; // Replace with your own username
 
   cleanupFiles(desktopPath);
 
